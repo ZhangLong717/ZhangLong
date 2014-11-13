@@ -8,3 +8,25 @@ and open the template in the editor.
     Author     : Administrator
 */
 
+.topbar{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height:70px;
+}
+#topbar_datetime{
+    text-align: right;
+}
+
+.topbar_label1{
+    width:24%;
+    margin:0px;
+    padding:0px;
+    text-align: right;
+    display: inline-block;
+}
+#topbar_title{
+    text-align: center;
+    font-size: 36px;
+}

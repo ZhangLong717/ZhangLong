@@ -8,3 +8,38 @@ and open the template in the editor.
     Author     : Administrator
 */
 
+
+
+.left-side-menu{
+    width:200px;
+    height:100%;
+    background: #F2F2F2;
+    float:left;
+}
+
+.sidebar-menu{
+    background: #F2F2F2;
+    //min-height: 800px;
+}
+.sidebar-menu>li a:hover{
+    //background: #0F6082;
+}
+.sidebar-menu>.header-item{
+    background: #0683B1;
+    color:white;
+    text-align: center;
+    font-size: 1.5em;
+    height:40px;
+}
+.sidebar-menu .header-item>span{
+    padding-top: 8px;
+    display:block;
+}
+.sidebar-menu>li a{
+    color:black;
+    text-align: center;
+    font-size: 1em;
+}
+.sidebar{
+    padding-top:20px;
+}
