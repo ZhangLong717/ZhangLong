@@ -4,11 +4,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
         <link href="assets/css/AdminLTE.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css">
         <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="assets/mine/css/mainpage.css">
-
-        <script src="assets/jquery/jquery-1.11.1.min.js"></script>
-        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        
         <!--<script src="assets/js/AdminLTE/app.js" type="text/javascript"></script>-->
     </head>
 
@@ -341,6 +340,82 @@
                                 <button class="btn">全部恢复</button>
                             </div>
                         </div>
+                        <div class="box floatleftblock">
+                                <div class="box-header">
+                                    <h3 class="box-title">Data Table With Full Features</h3>
+                                </div><!-- /.box-header -->
+                                <div class="box-body table-responsive">
+                                    <table id="example1" class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>全选</th>
+                                                <th>货物编号</th>
+                                                <th>发布时间</th>
+                                                <th>发布账号</th>
+                                                <th>出发地</th>
+                                                <th>目的地</th>
+                                                <th>货物类型</th>
+                                                <th>货物规格</th>
+                                                <th>竞标人数</th>
+                                                <th>操作</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>NM-56894720</td>
+                                                <td>10:30</td>
+                                                <td>15210508749</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td>10人</td>
+                                                <td>停用 删除 </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>NM-56894722</td>
+                                                <td>10:30</td>
+                                                <td>15211908749</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td>10人</td>
+                                                <td>恢复 删除 </td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td>10人</td>
+                                                <td>停用 删除 </td>
+                                            </tr>
+                                            
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <th>全选</th>
+                                                <th>货物编号</th>
+                                                <th>发布时间</th>
+                                                <th>发布账号</th>
+                                                <th>出发地</th>
+                                                <th>目的地</th>
+                                                <th>货物类型</th>
+                                                <th>货物规格</th>
+                                                <th>竞标人数</th>
+                                                <th>操作</th>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div><!-- /.box-body -->
+                            </div><!-- /.box -->
                     </div>
                 </aside>
                 <div class="clearfix">
@@ -353,7 +428,15 @@
             </div>
         </div>
 
-
+        <script src="assets/jquery/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/plugins/datatables/jquery.dataTables.js"></script>
+        <script src="assets/js/plugins/datatables/dataTables.bootstrap.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $("#example1").dataTable();
+            });
+        </script>
     </body>
 </html>
 
