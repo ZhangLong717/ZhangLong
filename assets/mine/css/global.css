@@ -8,3 +8,7 @@ and open the template in the editor.
     Author     : Administrator
 */
 
+.vb{
+    vertical-align: bottom;
+    margin-top: 20px;
+}
