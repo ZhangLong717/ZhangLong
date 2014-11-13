@@ -197,7 +197,8 @@ background-color:#157CA7;
     position:relative;
 }
 body{
-    overflow-x: visible!important;
+    overflow-x:scroll!important;
+    overflow-y:auto;
 }
 .textalignright{
     text-align: right;

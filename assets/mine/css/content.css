@@ -76,3 +76,12 @@ and open the template in the editor.
     width:70%;
     padding-left: 10px;
 }
+.datatable_id_column>input{
+    display: block;
+    margin: 0;
+}
+.datatable_id_column>label{
+    display: block;
+    margin: -17px 0 0 24px;
+    font-size: 15px;
+}
