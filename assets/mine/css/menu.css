@@ -64,6 +64,10 @@ body{
 .navbar-nav>li>a{
     color:white;
 }
+.navbar{
+    min-height: 40px;
+    box-sizing: border-box;
+}
 .navbar-nav>li>a:hover{
     background: #0F6082;
 }
@@ -171,6 +175,16 @@ body{
     width:70%;
     padding-left: 10px;
 }
+div.navbar {
+    height: 40px;
+}
+
+li.topnav_item a {
+    height: 40px;
+    line-height: 8px;
+}
+
+
 /*.sidebar-menu>li.active {
     background: #0F6082;
 }*/

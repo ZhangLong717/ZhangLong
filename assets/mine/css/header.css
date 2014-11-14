@@ -12,3 +12,9 @@ and open the template in the editor.
     width:180px;
     height:60px;
 }
+header{
+    z-index: 1;
+    position: relative;
+    padding-bottom: 0;
+    
+}
