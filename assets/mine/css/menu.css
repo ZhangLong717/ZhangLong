@@ -20,7 +20,17 @@ and open the template in the editor.
 #topnav_menu>ul{
     width:100%;
 }
-
+.clsMenu{
+    display:none;
+    border:1px black solid;
+    background:#A9A9AA;
+    width:100px;
+    position:absolute;
+}
+.clsMenu>ul>li{
+    color:#147CA7;
+    cursor:hand;
+}
 
 
 
