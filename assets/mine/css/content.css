@@ -8,3 +8,80 @@ and open the template in the editor.
     Author     : Administrator
 */
 
+
+.right-side{
+    margin-left: 200px;
+    height:100%;
+    //min-height: 800px;
+}
+.content-center{
+    //height:auto;
+    width:100%;
+    //height: 800px;
+}
+.content-row{
+    margin-top:10px;
+    margin-bottom: 10px;
+    float:left;
+    width:100%;
+}
+.form-content-search{
+    border:1px black solid;
+    float:left;
+}
+.content-row .mark_quandou{
+    background-color: #137CA7;
+    float:left;
+    width:40px;
+    text-align: center;
+    
+}
+.content-row label{
+    display:inline-block;
+}
+.content-row input{
+    display:inline-block;
+}
+.content-row .item-array{
+    
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+}
+.form-content-search-block1{
+    float:left;
+    width:8%;
+    margin-left: 15px;
+}
+.form-content-search-block2{
+    float:left;
+    width:5%;
+    margin-left: 10px;
+}
+.form-content-search-block5{
+    float:left;
+    width:5%;
+    margin-left: 10px;
+    background-color: #147CA7;
+    text-align: center;
+}
+.form-content-search-block6{
+    float:left;
+    width:70%;
+    padding-left: 10px;
+}
+.form-content-search-block7{
+    float:left;
+    width:70%;
+    padding-left: 10px;
+}
+.datatable_id_column>input{
+    display: block;
+    margin: 0;
+}
+.datatable_id_column>label{
+    display: block;
+    margin: -17px 0 0 24px;
+    font-size: 15px;
+}

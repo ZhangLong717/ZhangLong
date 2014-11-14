@@ -2555,7 +2555,9 @@
 				iTotal = oSettings.fnRecordsDisplay(),
 				sTotal = oSettings.fnFormatNumber( iTotal ),
 				iMax = oSettings.fnRecordsTotal(),
-				sMax = oSettings.fnFormatNumber( iMax );
+				sMax = oSettings.fnFormatNumber( iMax ),
+                                iRow = oSettings._iDisplayLength,
+                                iRow = oSettings.fnFormatNumber( iRow );    //hgc
 		
 			// When infinite scrolling, we are always starting at 1. _iDisplayStart is used only
 			// internally
@@ -2568,7 +2570,8 @@
 				replace(/_START_/g, sStart).
 				replace(/_END_/g,   sEnd).
 				replace(/_TOTAL_/g, sTotal).
-				replace(/_MAX_/g,   sMax);
+				replace(/_MAX_/g,   sMax).
+                                replace(/_ROW_/g,   iRow);      //hgc
 		}
 		
 		
@@ -7967,7 +7970,7 @@
 		 *      } );
 		 *    } );
 		 */
-		"aLengthMenu": [ 10, 25, 50, 100 ],
+		"aLengthMenu": [ 10,25,40,100 ],     //hgc 10, 25, 50, 100
 	
 	
 		/**
@@ -9287,7 +9290,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfo": "Showing _START_ to _END_ of _TOTAL_ entries",
+			"sInfo": "共_TOTAL_条记录&nbsp;&nbsp;&nbsp;&nbsp;每页_ROW_条&nbsp;&nbsp;&nbsp;&nbsp; 第一页 ", //hgc  _START_ - _END_
 		
 		
 			/**

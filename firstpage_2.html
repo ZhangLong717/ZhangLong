@@ -1,0 +1,1092 @@
+<html><head>
+        <title>Bootstrap Case</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link href="assets/css/AdminLTE.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="assets/mine/css/global.css">
+        <link rel="stylesheet" href="assets/mine/css/header.css">
+        <link rel="stylesheet" href="assets/mine/css/menu.css">
+        <link rel="stylesheet" href="assets/mine/css/footer.css">
+        <link rel="stylesheet" href="assets/mine/css/content.css">
+        <link rel="stylesheet" href="assets/mine/css/side.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row topbar">
+                <div class="col-xs-2">
+                    <div id="topbar_logoimage">
+                        <img src="assets/images/logo.png">
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <div id="topbar_title">
+                        滴滴货车后台管理系统
+                    </div>
+                </div>
+                <div class="col-xs-4 " style="padding:0;">
+                    <div id="topbar_datetime">
+                        2014年8月19日星期二  10:30
+                    </div>
+                    <div >
+                        <div class="topbar_label1">
+                            登录用户：
+                        </div>
+                        <div class="topbar_label1">
+                            yaoxianliang
+                        </div>
+                        <div class="topbar_label1">
+                            客服部
+                        </div>
+                        <div class="topbar_label1">
+                            [ 退出]
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar" id="topnav_menu" >
+                <ul class="nav navbar-nav" >
+                    <li class="topnav_item">
+                        <a href="home.html">首  页</a>
+                    </li>
+                    <li class="topnav_item">
+                        <a href="#">货源发布审核</a>
+                    </li >
+                    <li class="topnav_item">
+                        <a href="#">运输发布审核</a>
+                    </li>
+                    <li class="topnav_item">
+                        <a href="#">竞价开标审核</a>
+                    </li>
+                    <li class="topnav_item">
+                        <a href="#">退单审核</a>
+                    </li>
+                    <li class="topnav_item">
+                        <a href="#">身份认证审核</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!-- content -->
+            <div class="content-center">
+                <aside class="left-side-menu" >
+                    <section class="sidebar" style="display:block;">
+                        <ul class="sidebar-menu">
+                            <li class="header-item">
+                                <span>货物发布管理</span>                         
+                            </li>
+                            <li><a href="" > 托管货源管理</a></li>
+                            <li><a href="" > 竞价货源管理</a></li>
+                        </ul>
+                    </section>
+                    <section class="sidebar" style="display:none;">
+                        <ul class="sidebar-menu">
+                            <li class="header-item">
+                                <a href="">
+                                    <span>运输发布管理</span>                         
+                                </a>
+                            </li>
+                            <li><a href="" > 整车车源发布管理</a></li>
+                            <li><a href="" > 零担车源发布管理</a></li>
+                            <li><a href="" > 航运线路发布管理</a></li>
+                            <li><a href="" > 航空线路发布管理</a></li>
+                            <li><a href="" > 专线发布管理</a></li>
+                        </ul>
+                    </section>
+                    <section class="sidebar" style="display:none;">
+                        <ul class="sidebar-menu">
+                            <li class="treeview">
+                                <a href="">
+
+                                    <span>货物发布管理</span>                         
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 托管货源管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 竞价货源管理</a></li>
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="#">
+
+                                    <span>运输发布管理</span>
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 整车车源发布管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 零担车源发布管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 航运线路发布管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 航空线路发布管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 专线发布管理</a></li>
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="#">
+
+                                    <span>运输资源管理</span>
+                                    <i class="fa pull-right fa-angle-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 阿大车源管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 企业车源管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 车队车主车源管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 航运资源管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 航空资源管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 专线管理</a></li>
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="#">
+                                    <span>用户管理</span>
+                                    <i class="fa pull-right fa-angle-right"></i>
+                                </a>
+                                <ul class="treeview-menu" style="display: none;">
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 注册用户管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 用户登录日志</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 会员用户管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 潜在用户管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 身份审核管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 信誉审核管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 客户流失管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 拉黑用户管理</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="#">
+                                    <span>资金账户管理</span>
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 网站账户流水管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 营业额管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 订单账户管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 保证金账户管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 会员服务</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 广告位</a></li>
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="pages/calendar.html">
+                                    <span>订单管理</span>
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 等待订单管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 退单管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 历史订单管理</a></li>
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="pages/mailbox.html">
+                                    <span>信息审核管理</span>
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 广告审核管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 货源发布审核</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 运输发布审核</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 退单审核管理</a></li>
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="#">
+                                    <span>数据统计</span>
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 注册用户数据统计</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 订单数据统计</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 货源信息统计</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 线路信息统计</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 竞价数据统计</a></li>
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="#">
+                                    <span>系统管理</span>
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 部门权限管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 角色权限管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 角色登录日志</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 数据库管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 修改密码</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                </aside>
+                <aside class="right-side">
+                    <div class="content">
+                        <div class="content-header">
+                            <span>货物发布管理</span>
+                            <span>&nbsp;>&nbsp;</span>
+                            <span>竞价货源管理</span>
+                        </div>
+                        <div class="content-row">
+                            <span>历史最高竞价货源&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <span>3000000发生于2014-08-30</span>
+                            <div class="floatrightblock">当前在线货源：30000</div>
+                        </div>
+                        <div class="form-content">
+                            <form class="form-content-search" method="post">
+                                <div class="row">
+                                    <div class="col-xs-10">
+                                        <div class="content-row">
+                                            <div class="col-xs-4">
+                                                <label class="">号码查询</label>
+                                                <input class="input-sm" type="text" placeholder="发布账号/竞价单号">
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <label class="">出发地</label>
+                                                <input class="input-sm" type="text" placeholder=" 中文/拼音/首字母">
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <label class="">目的地</label>
+                                                <input class="input-sm" type="text" placeholder=" 中文/拼音/首字母">
+                                            </div>
+                                        </div>
+                                        <div class="content-row">
+                                            <div class="col-xs-8">
+                                                <label class="">发布时间</label>
+                                                <input class="input-sm" type="text" placeholder=" 年/月/日">
+                                                <label class="">-</label>
+                                                <input class="input-sm" type="text" placeholder="年/月/日">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <button type="submit" class="btn btn-info col-xs-8" style="margin-top: 15px;">查询</button>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <hr style="margin:0;border-top:1px solid black;">
+                                </div>
+                                <div class="content-row">
+                                    <div class="form-content-search-block1">
+                                        <label style="">货物类型</label>
+                                    </div>
+                                    <div class="form-content-search-block5">全部</div>
+                                    <div class="form-content-search-block6">
+                                        <label class="item-array">普通货物</label>
+                                        <label class="item-array">煤炭及制品</label>
+                                        <label class="item-array">石油天然气及制品</label>
+                                        <label class="item-array">金属原料及制品</label>
+                                        <label class="item-array">化工原料及制品</label>
+                                        <label class="item-array">农副产品</label>
+                                        <label class="item-array">鲜活水产</label>
+                                        <label class="item-array">牲畜</label>
+                                        <label class="item-array">电器及机械设备</label>
+                                        <label class="item-array">冷藏类</label>
+                                        <label class="item-array">高价值货物</label>
+                                        <label class="item-array">集装箱货物</label>
+                                        <label class="item-array">其他</label>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <hr style="margin:0;border-top:1px solid black;">
+                                </div>
+                                <div class="content-row">
+                                    <div class="form-content-search-block1">
+                                        <label style="">货物规格</label>
+                                    </div>
+                                    <div class="form-content-search-block2">
+                                        <label style="">重量：</label>
+                                    </div>
+                                    <div class="form-content-search-block5">全部</div>
+                                    <div class="form-content-search-block7">
+                                        <label class="item-array">2吨以下</label>
+                                        <label class="item-array">2-5吨</label>
+                                        <label class="item-array">5-10吨</label>
+                                        <label class="item-array">10-20吨</label>
+                                        <label class="item-array">20-40吨</label>
+                                        <label class="item-array">40吨以上</label>
+                                    </div>
+                                </div>
+                                <div class="content-row">
+                                    <div class="form-content-search-block1">
+                                        <label style=""></label>
+                                    </div>
+                                    <div class="form-content-search-block2">
+                                        <label style="">体积：</label>
+                                    </div>
+                                    <div class="form-content-search-block5">全部</div>
+                                    <div class="form-content-search-block7">
+                                        <label class="item-array">12立方米以下</label>
+                                        <label class="item-array">12-30立方米</label>
+                                        <label class="item-array">30-45立方米</label>
+                                        <label class="item-array">45-60立方米</label>
+                                        <label class="item-array">60-90立方米</label>
+                                        <label class="item-array">90立方米以上</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="content-row">
+                            <div class="col-xs-3">
+                                <button class="btn col-xs-4">全部</button>
+                                <button class="btn col-xs-4">正常</button>
+                                <button class="btn col-xs-4">恢复</button>
+                            </div>
+                            <div class="col-xs-2">
+                                <button id="firstpage_click1" class="btn firstpage_function1">全部删除</button>
+                            </div>
+                            <div class="col-xs-2">
+                                <button id="firstpage_click2" class="btn firstpage_function1">全部停用</button>
+                            </div>
+                            <div class="col-xs-2">
+                                <button id="firstpage_click3" class="btn firstpage_function1">全部恢复</button>
+                            </div>
+                        </div>
+                        <div class="box floatleftblock">
+                                <div class="box-header">
+                                    <h3 class="box-title">Data Table With Full Features</h3>
+                                </div><!-- /.box-header -->
+                                <div class="box-body table-responsive">
+                                    <table id="example1" class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>全选<input type="checkbox"></th>
+                                                <th>货物编号</th>
+                                                <th>发布时间</th>
+                                                <th>发布账号</th>
+                                                <th>出发地</th>
+                                                <th>目的地</th>
+                                                <th>货物类型</th>
+                                                <th>货物规格</th>
+                                                <th>竞标人数</th>
+                                                <th>操作</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >1</label></div></td>
+                                                <td>NM-56894720</td>
+                                                <td>10:30</td>
+                                                <td>15210508749</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >2</label></div></td>
+                                                <td>NM-56894722</td>
+                                                <td>10:30</td>
+                                                <td>15211908749</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td>恢复 <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            
+                                            <!-- sample-->
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            <tr>
+                                                <td><div class="datatable_id_column"><input type="checkbox"><label >3</label></div></td>
+                                                <td>NM-56894723</td>
+                                                <td>10:30</td>
+                                                <td>15210908759</td>
+                                                <td>北京</td>
+                                                <td>作领林岗地</td>
+                                                <td>农野战平</td>
+                                                <td>25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr>
+                                            
+                                            
+                                        </tbody>
+                                        <tfoot>
+                                            <tr>
+                                                <th>全选</th>
+                                                <th>货物编号</th>
+                                                <th>发布时间</th>
+                                                <th>发布账号</th>
+                                                <th>出发地</th>
+                                                <th>目的地</th>
+                                                <th>货物类型</th>
+                                                <th>货物规格</th>
+                                                <th>竞标人数</th>
+                                                <th>操作</th>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                    <div class="floatrightblock">
+                                        <button id="table_first_1_function1" type="button">导出当期页</button>
+                                        <button id="table_first_1_function2" type="button">导出全部页</button>
+                                    </div>
+                                </div><!-- /.box-body -->
+                            </div><!-- /.box -->
+                            <div class="floatleftblock">
+                                <button id="selectpage" type="button">select 3 page</button>
+
+                            </div>
+                    </div>
+                </aside>
+                <div class="clearfix">
+
+                </div>
+                <div  id="bottomnav_menu" >
+                    阿大物流有限公司版权所有
+                </div>
+
+            </div>
+        </div>
+
+        <script src="assets/jquery/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/plugins/datatables/jquery.dataTables.js"></script>
+        <script src="assets/js/plugins/datatables/dataTables.bootstrap.js"></script>
+        <script src="assets/mine/js/firstpage.js"></script>
+        <script type="text/javascript">
+            $(function() {
+               // $("#example1").dataTable();
+                $('#example1').dataTable({
+                    "sScrollY": (400),
+                    "aoColumnDefs": [
+                        {
+                           bSortable: false,
+                           aTargets: [ 0 ]
+                        }
+                      ]
+                  });
+            });
+        </script>
+        <div ID="idMenu0" CLASS="clsMenu">
+            <ul >
+                <li>没有选择</li>
+                <li>没有权限</li>
+                <li>全部删除</li>
+            </ul>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>
+
