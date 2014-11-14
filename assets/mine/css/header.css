@@ -16,6 +16,7 @@ header{
     z-index: 1;
     position: relative;
     padding-bottom: 0;
+}
     
 
 
@@ -40,5 +41,5 @@ header{
 #topbar_title{
     text-align: center;
     font-size: 36px;
->>>>>>> origin/master
+
 }
