@@ -7,6 +7,10 @@ and open the template in the editor.
     Created on : 2014-11-11, 18:06:52
     Author     : Hgc
 */
+.breadcrumb > li a{
+    color: #282828;
+    text-decoration: none;
+}
 #adminhome_topbar{
     background-color: #157CA7;
     height:40px;
@@ -32,6 +36,10 @@ and open the template in the editor.
 .pane_content a:active {
 } 
 
+.vb{
+    vertical-align: bottom;
+    margin-top: 20px;
+}
 #adminhome_topbar a:link {
     color: #E0E7EC;
 }
@@ -196,10 +204,7 @@ background-color:#157CA7;
 #adminlogin_registry_item{
     position:relative;
 }
-body{
-    overflow-x:scroll!important;
-    overflow-y:auto;
-}
+
 .textalignright{
     text-align: right;
 }
@@ -235,3 +240,53 @@ table tbody td {
 .colorblueone{
     color:#147CA7;
 }
+.dingdan-search{
+    margin-top: 13px !important;
+    margin-left: 8px;
+    display: flex;
+    
+}
+.blue-border{
+    width: 63%;
+    
+    //display: inline;
+    border: 1px solid #137BA6;
+}
+.ui-btn-inverse {
+font-size: 14px;
+line-height: 20px;
+background: #137BA6;
+padding-left: 16px;
+padding-right: 15px;
+color: #fff;
+border: #137BA6;
+}
+.chaxun_button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #137BA6;
+}
+.sidebar-menu>li a:hover{
+    color:#137BA6;
+    text-decoration: none;
+}
+.jiedan{
+    width:120px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.ui-breadcrumb-divider {
+padding: 0 5px;
+color: #656565;
+font-family: simsun,serif;
+}
+.centered{
+margin-left: auto;
+margin-right: auto;
+display: inline-block;
+}
+.autopadding{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+

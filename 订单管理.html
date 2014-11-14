@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>订单管理</title>
+        <meta charset="UTF-8">
+        <link href="assets/css/AdminLTE.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/mine/css/header.css">
+        <link rel="stylesheet" href="assets/mine/css/content.css">
+        <link rel="stylesheet" href="assets/mine/css/side.css">
+        <link rel="stylesheet" href="assets/mine/css/menu.css">
+        <link rel="stylesheet" href="assets/mine/css/global.css">
+        <script src="assets/js/AdminLTE/app.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header row topbar">
+                <div class="col-xs-2">
+                    <div id="logo">
+                        <img src="assets/images/logo.png">
+                    </div>
+                </div>
+                <div class="col-xs-7">
+                    <div id="topbar_title">
+                        滴滴货车后台管理系统
+                    </div>
+                </div>
+                <div class="col-xs-3 vb">
+                    <div id="topbar_datetime">
+                        2014年8月19日星期二  10:32
+                    </div>
+                    <div >
+                        <div class="topbar_label1">
+                            登录用户：yaoxianliang 客服部 
+                            <a href="#">[退出]</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </header>
+            <div class="navbar" id="topnav_menu" >
+                <ul class="nav navbar-nav" >
+                    <li class="topnav_item">
+                        <a href="home.html">首  页</a>
+                    </li>
+                    <li class="topnav_item">
+                        <a href="#">货源发布审核</a>
+                    </li >
+                    <li class="topnav_item">
+                        <a href="#">运输发布审核</a>
+                    </li>
+                    <li class="topnav_item">
+                        <a href="#">竞价开标审核</a>
+                    </li>
+                    <li class="topnav_item">
+                        <a href="#">退单审核</a>
+                    </li>
+                    <li class="topnav_item">
+                        <a href="#">身份认证审核</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- sidebar -->
+            
+            
+            <div class="content-center">
+                <aside class="left-side-menu" >
+                    <section class="sidebar" style="display:block;">
+                        <ul class="sidebar-menu ">
+                            <li class="header-item">
+                                <span>订单管理</span>                         
+                            </li>
+                            <li class="search-box-wrapper">
+                                <div class="form-group dingdan-search">
+                                    <input id="search" type="text" class="form-control blue-border">
+                                    <button id="chaxun" type="submit" class="ui-btn-inverse chaxun_button" >查询</button>
+                                </div>
+                            </li>
+                            <li><a href="" > 等待订单管理</a></li>
+                            <li><a href="" > 退单管理</a></li>
+                            <li><a href="" > 历史订单管理</a></li>
+                        </ul>
+                    </section>
+                    <section class="sidebar" style="display:none;">
+                        <ul class="sidebar-menu">
+                            <li class="header-item">
+                                <a href="">
+                                    <span>订单管理</span>                         
+                                </a>
+                            </li>
+                            <li><a href="" > 整车车源发布管理</a></li>
+                            <li><a href="" > 零担车源发布管理</a></li>
+                            <li><a href="" > 航运线路发布管理</a></li>
+                            <li><a href="" > 航空线路发布管理</a></li>
+                            <li><a href="" > 专线发布管理</a></li>
+                        </ul>
+                    </section>
+                    <section class="sidebar" style="display:none;">
+                        <ul class="sidebar-menu">
+                            <li class="treeview">
+                                <a href="">
+
+                                    <span>货物发布管理</span>                         
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 托管货源管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 竞价货源管理</a></li>
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="#">
+
+                                    <span>运输发布管理</span>
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 整车车源发布管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 零担车源发布管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 航运线路发布管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 航空线路发布管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 专线发布管理</a></li>
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="#">
+
+                                    <span>运输资源管理</span>
+                                    <i class="fa pull-right fa-angle-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 阿大车源管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 企业车源管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 车队车主车源管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 航运资源管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 航空资源管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 专线管理</a></li>
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="#">
+                                    <span>用户管理</span>
+                                    <i class="fa pull-right fa-angle-right"></i>
+                                </a>
+                                <ul class="treeview-menu" style="display: none;">
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 注册用户管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 用户登录日志</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 会员用户管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 潜在用户管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 身份审核管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 信誉审核管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 客户流失管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 拉黑用户管理</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="#">
+                                    <span>资金账户管理</span>
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 网站账户流水管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 营业额管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 订单账户管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 保证金账户管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 会员服务</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 广告位</a></li>
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="pages/calendar.html">
+                                    <span>订单管理</span>
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 等待订单管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 退单管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 历史订单管理</a></li>
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="pages/mailbox.html">
+                                    <span>信息审核管理</span>
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 广告审核管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 货源发布审核</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 运输发布审核</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 退单审核管理</a></li>
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="#">
+                                    <span>数据统计</span>
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 注册用户数据统计</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 订单数据统计</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 货源信息统计</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 线路信息统计</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 竞价数据统计</a></li>
+                                </ul>
+                            </li>
+                            <li class="treeview">
+                                <a href="#">
+                                    <span>系统管理</span>
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                                <ul class="treeview-menu">
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 部门权限管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 角色权限管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 角色登录日志</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 数据库管理</a></li>
+                                    <li><a href="" style="margin-left: 20px;"><i class="fa fa-angle-double-right"></i> 修改密码</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                </aside>
+                <aside class="right-side">
+                    <div class="content">
+                        <ol class="breadcrumb">
+                            <li><a href="#">订单管理</a>
+                            
+                            <li><a href="#">等待订单管理</a></li>
+                        </ol>
+                        <div class="content-row">
+                            <span><small>历史最高竞价货源&nbsp;&nbsp;&nbsp;&nbsp;3000000发生于2014-08-30</small></span>
+                            
+                        </div>
+                        <div class="content-row list-container">
+                            <div class="list-filter filter-along">
+                                
+                                        <span class="autopadding">接单时间</span>
+                                        <div id="jiedan_search_form" class="form-group centered">
+                                        <input id="start_date" type="text" class="form-control jiedan">
+                                        <span class="ui-breadcrumb-divider"> - </span>
+                                        <input id="end_date" type="text" class="form-control jiedan">
+                                        <button id="jiedan_search_button" type="submit" class="ui-btn-inverse chaxun_button">查询</button>
+                                        </div> 
+                                <dl class="filter-category">
+                                    <dt>订单状态:</dt>
+                                    <dd>
+                                        <a class="selected" href="#">全部</a>
+                                        <a class="" href="#">等待取货</a>
+                                        <a class="" href="#">等待接货</a>
+                                        <a class="" href="#">等待送货</a>
+                                        <a class="" href="#">等待自提</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            
+                                    
+                            
+                        </div>
+                        <div class="box floatleftblock">
+                               
+                                <div class="box-body table-responsive">
+                                    <div id="example1_wrapper" class="dataTables_wrapper form-inline" role="grid"><div class="row"><div class="col-xs-6"><div id="example1_length" class="dataTables_length"><label><select size="1" name="example1_length" aria-controls="example1"><option value="10" selected="selected">10</option><option value="25">25</option><option value="40">40</option><option value="100">100</option></select> 条每页</label></div></div><div class="col-xs-6"><div class="dataTables_filter" id="example1_filter"><label>Search: <input type="text" aria-controls="example1"></label></div></div></div><table id="example1" class="table table-bordered table-striped dataTable" aria-describedby="example1_info">
+                                        <thead>
+                                            <tr role="row">
+                                                <th class="sorting" role="columnheader" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 40px;" aria-label="订单编号： activate to sort column ascending">订单编号</th>
+                                                <th class="sorting" role="columnheader" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 89px;" aria-label="货物编号: activate to sort column ascending">货物编号</th>
+                                                <th class="sorting" role="columnheader" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 78px;" aria-label="发布时间: activate to sort column ascending"> 发布时间 </th>
+                                                <th class="sorting" role="columnheader" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 89px;" aria-label="发布账号: activate to sort column ascending">发布账号</th>
+                                                <th class="sorting" role="columnheader" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 59px;" aria-label="出发地: activate to sort column ascending">出发地</th>
+                                                <th class="sorting" role="columnheader" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 70px;" aria-label="目的地: activate to sort column ascending">目的地</th>
+                                                <th class="sorting" role="columnheader" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 79px;" aria-label="货物类型: activate to sort column ascending">货物类型</th>
+                                                <th class="sorting" role="columnheader" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 94px;" aria-label="货物规格: activate to sort column ascending">货物规格</th>
+                                                <th class="sorting" role="columnheader" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 79px;" aria-label="竞标人数: activate to sort column ascending">竞标人数</th>
+                                                <th class="sorting_desc" role="columnheader" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" style="width: 62px;" aria-sort="descending" aria-label="操作: activate to sort column ascending">操作</th>
+                                            </tr>
+                                        </thead>
+                                        
+                                        <tfoot>
+                                            <tr><th rowspan="1" colspan="1">全选</th><th rowspan="1" colspan="1">货物编号</th><th rowspan="1" colspan="1">发布时间</th><th rowspan="1" colspan="1">发布账号</th><th rowspan="1" colspan="1">出发地</th><th rowspan="1" colspan="1">目的地</th><th rowspan="1" colspan="1">货物类型</th><th rowspan="1" colspan="1">货物规格</th><th rowspan="1" colspan="1">竞标人数</th><th rowspan="1" colspan="1">操作</th></tr>
+                                        </tfoot>
+                                    <tbody role="alert" aria-live="polite" aria-relevant="all">
+                                        <tr class="odd">
+                                                <td class="">2</td>
+                                                <td class=" ">NM-56894722</td>
+                                                <td class=" ">10:30</td>
+                                                <td class=" ">15211908749</td>
+                                                <td class=" ">北京</td>
+                                                <td class=" ">作领林岗地</td>
+                                                <td class=" ">农野战平</td>
+                                                <td class=" ">25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td class=" sorting_1">恢复 <span class="colorred">删除</span> </td>
+                                            </tr><tr class="even">
+                                                <td class="">1</td>
+                                                <td class=" ">NM-56894720</td>
+                                                <td class=" ">10:30</td>
+                                                <td class=" ">15210508749</td>
+                                                <td class=" ">北京</td>
+                                                <td class=" ">作领林岗地</td>
+                                                <td class=" ">农野战平</td>
+                                                <td class=" ">25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td class=" sorting_1"><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr><tr class="odd">
+                                                <td class="">3</td>
+                                                <td class=" ">NM-56894723</td>
+                                                <td class=" ">10:30</td>
+                                                <td class=" ">15210908759</td>
+                                                <td class=" ">北京</td>
+                                                <td class=" ">作领林岗地</td>
+                                                <td class=" ">农野战平</td>
+                                                <td class=" ">25屯/30立方米</td>
+                                                <td class="colorred">10人</td>
+                                                <td class=" sorting_1"><span class="colorblueone">停用</span> <span class="colorred">删除</span> </td>
+                                            </tr></tbody></table><div class="row"><div class="col-xs-6"><div class="dataTables_info" id="example1_info">共3条记录&nbsp;&nbsp;&nbsp;&nbsp;每页25条&nbsp;&nbsp;&nbsp;&nbsp; 第一页 </div></div><div class="col-xs-6"><div class="dataTables_paginate paging_bootstrap"><ul class="pagination"><li class="first disabled"><a href="#">First</a></li><li class="prev  disabled"><a href="#">Previous</a></li><li class="active" <a="" href="/ref#sClass"><a href="#">1</a></li><li class="next  disabled"><a href="#">Next</a></li><li class="last  disabled"><a href="#">Last</a></li></ul></div></div></div></div>
+                                </div><!-- /.box-body -->
+                            </div>
+                       
+                    </div>
+                </aside>
+                <div class="clearfix">
+
+                </div>
+                <div  id="bottomnav_menu" >
+                    阿大物流有限公司版权所有
+                </div>
+
+            </div>
+        </div>
+        
+        
+        
+    </body>
+</html>

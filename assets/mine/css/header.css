@@ -7,6 +7,18 @@ and open the template in the editor.
     Created on : Nov 13, 2014, 11:02:15 AM
     Author     : Administrator
 */
+.logo{
+    position: absolute;
+    width:180px;
+    height:60px;
+}
+header{
+    z-index: 1;
+    position: relative;
+    padding-bottom: 0;
+}
+    
+
 
 .topbar{
     margin-top: 30px;
@@ -29,4 +41,5 @@ and open the template in the editor.
 #topbar_title{
     text-align: center;
     font-size: 36px;
+
 }

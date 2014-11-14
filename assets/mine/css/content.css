@@ -258,4 +258,58 @@ and open the template in the editor.
 }
 .table_row_content .block2 .content .content_row .labelitem{
     padding-right: 15px;
+.list-container{
+    background: #fff;
+    padding: 15px 18px;
+}
+.list-filter {
+position: relative;
+margin-bottom: 20px;
+
+display: inherit;
+text-align: center;
+}
+.filter-along {
+padding: 10px;
+border: 1px solid #ddd;
+}
+.list-filter dl {
+border-top: 1px solid #f4f4f4;
+margin: 0;
+padding: 10px 0;
+}
+
+.list-filter dt {
+float: left;
+}
+.list-filter dl.filter-category a.selected {
+color: #fff;
+background: #137BA7;
+}
+.list-filter dl.filter-category a:first-child {
+width: auto;
+padding: 0 5px;
+margin-right: 30px;
+}
+
+.list-filter dd {
+margin-left: 87px;
+text-align: left;
+}
+
+.list-filter dl.filter-category a {
+width: 80px;
+margin-right: 0;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+
+.list-filter a {
+color: #999;
+display: inline-block;
+margin-right: 25px;
+padding: 0 5px;
+text-decoration: none;
+line-height: 2em;
 }
