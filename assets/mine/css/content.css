@@ -13,6 +13,7 @@ and open the template in the editor.
     margin-left: 200px;
     height:100%;
     //min-height: 800px;
+    background:white;
 }
 .content-center{
     //height:auto;
@@ -139,9 +140,15 @@ and open the template in the editor.
 }
 .table_row_content .block1{
     border:1px #137CA7 solid;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
 }
 .table_row_content .block1 .row1{
-    border:1px #137CA7;
+    background: #F2F2F2;
+    float:left;
+    width:100%;
+    height:30px;
 }
 .table_row_content .block1 .row1 .first{
     width:10%;
@@ -159,33 +166,51 @@ and open the template in the editor.
     text-align: center;
     float:left;
 }
+.table_row_content .block1 .row2{
+    border:1px #137CA7 solid;
+    background: #F2F2F2;
+    float:left;
+    width:100%;
+    border-top:0;
+    height:30px;
+}
 .table_row_content .block1 .row2 .first{
     border:1px #137CA7;
     float:left;
+    width:10%;
+    text-align: right;
 }
 .table_row_content .block1 .row2 .second{
     border:1px #137CA7;
     float:left;
+    width:20%;
 }
 .table_row_content .block1 .row2 .third{
     border:1px #137CA7;
     float:left;
+    width:60%;
 }
 .table_row_content .block1 .row2 .fourth{
     border:1px #137CA7;
     float:left;
+    width:10%;
 }
 .table_row_content .block2{
-    border:1px #CCCCCC;
+    border:1px #CCCCCC solid;
+    float:left;
+    width:100%;
+    background:white;
 }
 .table_row_content .block2 .headtitle{
     padding-left: 20px;
     font-size: 16px;
     background: #F2F2F2;
     border:1px #CCCCCC;
+    height:30px;
 }
 .table_row_content .block2 .content{
     padding:20px;
+    background: white;
 }
 .table_row_content .block2 .content .headtitle1{
     margin-top: 10px;
