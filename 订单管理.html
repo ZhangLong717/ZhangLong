@@ -8,6 +8,9 @@ and open the template in the editor.
     <head>
         <title>订单管理</title>
         <meta charset="UTF-8">
+        <link href="assets/css/AdminLTE.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
@@ -71,19 +74,26 @@ and open the template in the editor.
             <div class="content-center">
                 <aside class="left-side-menu" >
                     <section class="sidebar" style="display:block;">
-                        <ul class="sidebar-menu">
+                        <ul class="sidebar-menu ">
                             <li class="header-item">
-                                <span>货物发布管理</span>                         
+                                <span>订单管理</span>                         
                             </li>
-                            <li><a href="" > 托管货源管理</a></li>
-                            <li><a href="" > 竞价货源管理</a></li>
+                            <li class="search-box-wrapper">
+                                <div class="form-group dingdan-search">
+                                    <input id="search" type="text" class="form-control blue-border">
+                                    <button id="chaxun" type="submit" class="ui-btn-inverse chaxun_button" >查询</button>
+                                </div>
+                            </li>
+                            <li><a href="" > 等待订单管理</a></li>
+                            <li><a href="" > 退单管理</a></li>
+                            <li><a href="" > 历史订单管理</a></li>
                         </ul>
                     </section>
                     <section class="sidebar" style="display:none;">
                         <ul class="sidebar-menu">
                             <li class="header-item">
                                 <a href="">
-                                    <span>运输发布管理</span>                         
+                                    <span>订单管理</span>                         
                                 </a>
                             </li>
                             <li><a href="" > 整车车源发布管理</a></li>
@@ -220,16 +230,40 @@ and open the template in the editor.
                 </aside>
                 <aside class="right-side">
                     <div class="content">
-                        <div class="content-header">
-                            <span>货物发布管理</span>
-                            <span>&nbsp;>&nbsp;</span>
-                            <span>竞价货源管理</span>
-                        </div>
+                        <ol class="breadcrumb">
+                            <li><a href="#">订单管理</a>
+                            
+                            <li><a href="#">等待订单管理</a></li>
+                        </ol>
                         <div class="content-row">
-                            <span>历史最高竞价货源&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                            <span>3000000发生于2014-08-30</span>
+                            <span><small>历史最高竞价货源&nbsp;&nbsp;&nbsp;&nbsp;3000000发生于2014-08-30</small></span>
+                            
                         </div>
-                        
+                        <div class="content-row list-container">
+                            <div class="list-filter filter-along">
+                                
+                                        <span class="autopadding">接单时间</span>
+                                        <div id="jiedan_search_form" class="form-group centered">
+                                        <input id="start_date" type="text" class="form-control jiedan">
+                                        <span class="ui-breadcrumb-divider"> - </span>
+                                        <input id="end_date" type="text" class="form-control jiedan">
+                                        <button id="jiedan_search_button" type="submit" class="ui-btn-inverse chaxun_button">查询</button>
+                                        </div> 
+                                <dl class="filter-category">
+                                    <dt>订单状态:</dt>
+                                    <dd>
+                                        <a class="selected" href="#">全部</a>
+                                        <a class="" href="#">等待取货</a>
+                                        <a class="" href="#">等待接货</a>
+                                        <a class="" href="#">等待送货</a>
+                                        <a class="" href="#">等待自提</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            
+                                    
+                            
+                        </div>
                        
                     </div>
                 </aside>

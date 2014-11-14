@@ -7,9 +7,7 @@ and open the template in the editor.
     Created on : 2014-11-12, 0:12:35
     Author     : Hgc
 */
-body{
-    overflow-x: visible!important;
-}
+
 .topbar{
     margin-top: 60px;
     margin-bottom: 15px;
@@ -207,8 +205,18 @@ li.topnav_item a {
     color:#147CA7;
     cursor:hand;
 }
-
-
+.search-box-wrapper {
+  z-index: 100;
+  
+}
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #333;
+  //content: "/\00a0";
+  content:">";
+  font-family: simsun,serif;
+      
+}
 
 
 /*.sidebar-menu>li.active {
