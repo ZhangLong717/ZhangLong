@@ -85,3 +85,152 @@ and open the template in the editor.
     margin: -17px 0 0 24px;
     font-size: 15px;
 }
+.customtable_id_column>input{
+    display: block;
+    margin: 0;
+}
+.customtable_id_column>label{
+    display: block;
+    margin: -17px 0 0 24px;
+    font-size: 15px;
+}
+.customtable{
+    width:100%;
+    float:left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.customtable table{
+    width:100%;
+}
+.customtable table thead{
+    background:#147CA7;
+    height:50px;
+}
+.customtable table tbody tr{
+    height:30px;
+    border-bottom: 1pt solid #CBCBCB;
+}
+.customtable table thead th,
+.customtable table tbody td{  
+    width:10%;
+}
+.customtable .tingyong{
+    color:#147CA7;
+    cursor:pointer;
+}
+.customtable .sanchu{
+    color:#147CA7;
+    cursor:pointer;
+}
+.customtable .huifu{
+    color:#7A7A7A;
+    cursor:pointer;
+}
+.customtable table tr{
+    cursor:pointer;
+}
+.table_row_content{
+    margin:15px;
+    float:left;
+}
+.table_row_content .buttonactions{
+    float:right;
+}
+.table_row_content .block1{
+    border:1px #137CA7 solid;
+}
+.table_row_content .block1 .row1{
+    border:1px #137CA7;
+}
+.table_row_content .block1 .row1 .first{
+    width:10%;
+    text-align: right;
+    float:left;
+}
+.table_row_content .block1 .row1 .second{
+    width:20%;
+    text-align: left;
+    padding-left: 10px;
+    float:left;
+}
+.table_row_content .block1 .row1 .third{
+    width:70%;
+    text-align: center;
+    float:left;
+}
+.table_row_content .block1 .row2 .first{
+    border:1px #137CA7;
+    float:left;
+}
+.table_row_content .block1 .row2 .second{
+    border:1px #137CA7;
+    float:left;
+}
+.table_row_content .block1 .row2 .third{
+    border:1px #137CA7;
+    float:left;
+}
+.table_row_content .block1 .row2 .fourth{
+    border:1px #137CA7;
+    float:left;
+}
+.table_row_content .block2{
+    border:1px #CCCCCC;
+}
+.table_row_content .block2 .headtitle{
+    padding-left: 20px;
+    font-size: 16px;
+    background: #F2F2F2;
+    border:1px #CCCCCC;
+}
+.table_row_content .block2 .content{
+    padding:20px;
+}
+.table_row_content .block2 .content .headtitle1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.table_row_content .block2 .content table,td,th{
+    border:1px #CCCCCC;
+    text-align: center;
+}
+.table_row_content .block2 .content table{  
+    border-collapse: collapse;
+    width:100%;
+}
+.table_row_content .block2 .content .firsttable .firstcol {  
+    width:20%;
+    text-align: right;
+    padding-right: 10px;
+}
+.table_row_content .block2 .content .firsttable .secondcol {  
+    width:40%;
+    text-align: left;
+    padding-left: 10px;
+}
+.table_row_content .block2 .content .firsttable .thirdcol {  
+    width:40%;
+    text-align: left;
+    padding-left: 10px;
+}
+.table_row_content .block2 .content .secondtable td{
+    width:10%;
+    text-align: center;
+    height:100px;
+}
+.table_row_content .block2 .content .secondtable th{
+    background: #F2F2F2;
+    text-align: center;
+}
+.table_row_content .block2 .content .content_row{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.table_row_content .block2 .content .content_row .leftlabel{
+    width:10%;
+    text-align: left;
+}
+.table_row_content .block2 .content .content_row .labelitem{
+    padding-right: 15px;
+}

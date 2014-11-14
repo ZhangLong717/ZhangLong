@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="assets/mine/css/footer.css">
         <link rel="stylesheet" href="assets/mine/css/content.css">
         <link rel="stylesheet" href="assets/mine/css/side.css">
+        <link rel="stylesheet" href="assets/mine/css/dialog.css">
     </head>
 
     <body>
@@ -1069,21 +1070,142 @@
                 <li>全部删除</li>
             </ul>
         </div>
+        <div ID="idMenu1" CLASS="clsMenu">
+            <ul >
+                <li>没有选择</li>
+                <li>没有权限</li>
+                <li>全部停用</li>
+            </ul>
+        </div>
+        <div ID="idMenu2" CLASS="clsMenu">
+            <ul >
+                <li>没有选择</li>
+                <li>没有权限</li>
+                <li>全部恢复</li>
+            </ul>
+        </div>
         <!-- Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal fade" id="firstpage_type0dialog0" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-              </div>
-              <div class="modal-body">
-                ...
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-              </div>
+            <div class="modal-content dlg_customframe1">
+                <center>
+                  <h1 class="dlg_customframe1_message1">对不起，您未选择任何信息!</h1>
+                  <button type="button" data-dismiss="modal" class="btn dlg_customframe1_button1">确 定</button>
+                </center>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="firstpage_type0dialog1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content dlg_customframe1">
+                <center>
+                    <div>
+                        <img src="assets/images/icon_warning.png" style="float:left;margin-left:100px;">
+                        <h3 class="dlg_customframe1_message2">对不起，您没有权限访问, 请于管理员联系请求访问权限！</h3>
+                    </div>
+                    <button type="button" data-dismiss="modal" class="btn dlg_customframe1_button1">确 定</button>
+                </center>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="firstpage_type1dialog0" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content dlg_customframe1">
+                <center>
+                    <div>
+                        <h2 class="dlg_customframe1_message2">您将删除所有选中项</h2>
+                    </div>
+                    <button type="button" data-dismiss="modal" class="btn dlg_customframe1_button1">确 定</button>
+                    <button type="button" data-dismiss="modal" class="btn dlg_customframe1_button1">取 消</button>
+                </center>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="firstpage_type1dialog1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content dlg_customframe1">
+                <center>
+                    <div>
+                        <h2 class="dlg_customframe1_message2">您将停用所有选中项</h2>
+                    </div>
+                    <button type="button" data-dismiss="modal" class="btn dlg_customframe1_button1">确 定</button>
+                    <button type="button" data-dismiss="modal" class="btn dlg_customframe1_button1">取 消</button>
+                </center>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="firstpage_type1dialog2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content dlg_customframe1">
+                <center>
+                    <div>
+                        <h2 class="dlg_customframe1_message2">您将恢复所有选中项</h2>
+                    </div>
+                    <button type="button" data-dismiss="modal" class="btn dlg_customframe1_button1">确 定</button>
+                    <button type="button" data-dismiss="modal" class="btn dlg_customframe1_button1">取 消</button>
+                </center>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="firstpage_type2dialog0" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content dlg_customframe1">
+                <center>
+                    <div>
+                        <h2 class="dlg_customframe1_message2">您将恢复所有选中项</h2>
+                    </div>
+                    <button type="button" data-dismiss="modal" class="btn dlg_customframe1_button1">确 定</button>
+                    <button type="button" data-dismiss="modal" class="btn dlg_customframe1_button1">取 消</button>
+                </center>
+            </div>
+          </div>
+        </div>
+        
+        <div class="modal fade" id="firstpage_dialog1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content dlg_customframe1">
+                <center>
+                    <div>
+                        <img src="assets/images/icon_warning.png" style="float:left;margin-left:100px;">
+                        <h3 class="dlg_customframe1_message2">aaaaa</h3>
+                    </div>
+                    <button type="button" data-dismiss="modal" class="btn dlg_customframe1_button1">确 定</button>
+                </center>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="firstpage_dialog3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content dlg_customframe2">
+                <div class="toptitle" >
+                    导出设置
+                </div>
+                <div style="clear:right;"></div>
+                <div style="float:right;">
+                    <img src="assets/images/dialog_folder.png">
+                </div>
+                <div class="dlgrow">
+                    <label>导出位置:</label>
+                    <input>
+                </div>
+                <div class="dlgrow">
+                    <label>文件名:</label>
+                    <input>
+                </div>
+                <div class="dlgrow">
+                    <label>文件格式:</label>
+                    <select>
+                        <option>.doc(2003)</option>
+                        <option>.Excel(2003)</option>
+                        <option>.jpg</option>
+                        <option>.pdf</option>
+                        <option>.XML  数据</option>
+                    </select>
+                </div>
+                <div class="dlgbutton">
+                    <button data-dismiss="modal" class="dlg_customframe1_button1">导 出</button>
+                    <button data-dismiss="modal" class="dlg_customframe1_button1">取 消</button>
+                </div>
             </div>
           </div>
         </div>

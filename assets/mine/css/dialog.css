@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-11-14, 16:51:43
+    Author     : Hgc
+*/
+
+.dlg_customframe1{
+    border-radius: 25px;
+    border-color: #147CA7;
+    border-width: 4px;
+}
+.dlg_customframe2{
+    border-color: #147CA7;
+    border-radius: 0;
+    width:300px;
+}
+.background_color1{
+    background:#147CA7;
+}
+.dlg_customframe1_message1{
+    margin-top: 116px;
+    margin-bottom: 56px;
+    color:#E98A35;
+}
+.dlg_customframe1_message2{
+    margin-top: 116px;
+    margin-bottom: 56px;
+    color:#E98A35;
+    width:300px;
+}
+.dlg_customframe1_message3{
+    margin-top: 116px;
+    margin-bottom: 56px;
+    color:#E98A35;
+    width:300px;
+}
+.dlg_customframe1_message4{
+    margin-top: 116px;
+    margin-bottom: 56px;
+    color:black;
+}
+.dlg_customframe1_button1{
+    margin-bottom: 10px;
+    color:white;
+    background: #147CA7;
+}
+.dlg_customframe2 .toptitle{
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background: #147CA7;
+    padding: 10;
+}
+.dlg_customframe2  .dlgrow{
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+.dlg_customframe2  .dlgrow>label{
+    width: 80px;
+text-align: right;
+}
+.dlg_customframe2  .dlgrow>input{
+    width:150px;
+}
+.dlg_customframe2  .dlgrow>select{
+    width:150px;
+}
+.dlg_customframe2  .dlgbutton{
+    margin-left: 200px;
+}
