@@ -17,8 +17,8 @@ and open the template in the editor.
 }
 .content-center{
     //height:auto;
-    width:100%;
     //height: 800px;
+    padding-left: 200px;
 }
 .content-row{
     margin-top:10px;
@@ -100,6 +100,7 @@ and open the template in the editor.
     float:left;
     margin-top: 20px;
     margin-bottom: 20px;
+    min-height: 300px;
 }
 .customtable table{
     width:100%;
@@ -115,6 +116,9 @@ and open the template in the editor.
 .customtable table thead th,
 .customtable table tbody td{  
     width:10%;
+}
+.customtable table tbody td{  
+    height:30px;
 }
 .customtable .tingyong{
     color:#147CA7;
@@ -139,7 +143,6 @@ and open the template in the editor.
     float:right;
 }
 .table_row_content .block1{
-    border:1px #137CA7 solid;
     margin-bottom: 20px;
     float: left;
     width: 100%;
@@ -149,6 +152,7 @@ and open the template in the editor.
     float:left;
     width:100%;
     height:30px;
+    border:1px #137CA7 solid;
 }
 .table_row_content .block1 .row1 .first{
     width:10%;
@@ -207,18 +211,22 @@ and open the template in the editor.
     background: #F2F2F2;
     border:1px #CCCCCC;
     height:30px;
+    float:left;
+    width:100%;
 }
 .table_row_content .block2 .content{
     padding:20px;
     background: white;
+    float:left;
 }
 .table_row_content .block2 .content .headtitle1{
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .table_row_content .block2 .content table,td,th{
-    border:1px #CCCCCC;
+    border:1px #CCCCCC solid;
     text-align: center;
+    height:25px;
 }
 .table_row_content .block2 .content table{  
     border-collapse: collapse;
@@ -228,6 +236,7 @@ and open the template in the editor.
     width:20%;
     text-align: right;
     padding-right: 10px;
+    background: #F2F2F2;
 }
 .table_row_content .block2 .content .firsttable .secondcol {  
     width:40%;
@@ -240,24 +249,43 @@ and open the template in the editor.
     padding-left: 10px;
 }
 .table_row_content .block2 .content .secondtable td{
-    width:10%;
+    width:8%;
     text-align: center;
     height:100px;
+    font-size: 12px;
+}
+.table_row_content .block2 .content .secondtable .smalltd{
+    width:5%;
 }
 .table_row_content .block2 .content .secondtable th{
     background: #F2F2F2;
+    width:8%;
     text-align: center;
+    height:40px;
+    font-size: 12px;
+}
+.content_row{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    float:left;
+    width:100%;
 }
 .table_row_content .block2 .content .content_row{
     margin-bottom: 10px;
     margin-top: 10px;
+    float:left;
+    width:100%;
 }
 .table_row_content .block2 .content .content_row .leftlabel{
     width:10%;
     text-align: left;
+    font-weight: 400;
+    float:left;
 }
 .table_row_content .block2 .content .content_row .labelitem{
     padding-right: 15px;
+    font-weight: 400;
+    float:left;
 }
 .list-container{
     background: #fff;
@@ -313,4 +341,7 @@ margin-right: 25px;
 padding: 0 5px;
 text-decoration: none;
 line-height: 2em;
+}
+.content .customtable th{
+    background-color: #F2F2F2;
 }
