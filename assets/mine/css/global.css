@@ -246,6 +246,9 @@ table tbody td {
     display: flex;
     
 }
+.fl{
+    float:left;
+}
 .blue-border{
     width: 63%;
     
@@ -289,4 +292,7 @@ display: inline-block;
     padding-left: 5px;
     padding-right: 5px;
 }
-
+.automargin{
+    margin-left: 5px;
+    margin-right: 5px;
+}
