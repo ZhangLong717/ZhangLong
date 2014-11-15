@@ -299,6 +299,13 @@ display: inline-block;
     background: #147CA7;
     color:white;
     border: 1px solid #147ca7;
+    text-align: center;
+}
+.buttonstyle2{
+    background: white;
+    color:black;
+    border: 1px solid #CCCCCC;
+    text-align: center;
 }
 /*
 To change this license header, choose License Headers in Project Properties.

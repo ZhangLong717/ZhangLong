@@ -223,9 +223,10 @@ and open the template in the editor.
     width:100%;
 }
 .table_row_content .block2 .content{
-    padding:20px;
     background: white;
     float:left;
+    width:100%;
+    padding:15px;
 }
 .table_row_content .block2 .content .headtitle1{
     margin-top: 10px;
@@ -279,8 +280,8 @@ and open the template in the editor.
     width:100%;
 }
 .table_row_content .block2 .content .content_row{
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     float:left;
     width:100%;
 }
@@ -372,4 +373,204 @@ line-height: 2em;
 }
 .right-side-menu .content{
     background:white;
+}
+.jingjia_info {
+    padding:15px;
+}
+.jingjia_info .bids{
+    width:100%;
+    float:left;
+}
+.jingjia_info .bids .bidcontent .head{
+    width:100%;
+    height:40px;
+    background:#E6E6E6;
+    float:left;
+    padding-top: 10px;
+}
+.jingjia_info .bids .bidcontent .head .first{
+    width:15%;
+    text-align: right;
+    float:left;
+}
+.jingjia_info .bids .bidcontent .head .second{
+    width:8%;
+    text-align: center;
+    float:left;
+}
+.jingjia_info .bids .bidcontent .head .third{
+    width:17%;
+    text-align: left;
+    float:left;
+}
+.jingjia_info .bids .bidcontent .head .fourth{
+    width:50%;
+    text-align: left;
+    float:left;
+    margin-top: -20px;
+}
+.jingjia_info .bids .bidcontent .head .fifth{
+    width:10%;
+    text-align: right;
+    padding-right: 10px;
+    float:left;
+}
+.jingjia_info .bids .bidcontent .head .tingyong{
+    color:#147CA7;
+}
+.jingjia_info .bids .bidcontent .head .sanchu{
+    color:red;
+}
+.jingjia_info .bids .bidcontent .content .headline{
+    width:100%;
+    float:left;
+}
+.jingjia_info .bids .bidcontent .content .headline .first{
+    background: url("../../../assets/images/headline_mark_3.png");
+    background-repeat: repeat-x;
+    width:100%;
+    float:left;
+    height:30px;
+}
+.jingjia_info .bids .bidcontent .content .headline .second{
+    background: url("../../../assets/images/headline_mark_2.png");
+    background-repeat: repeat-x;
+    float:left;
+    width:100px;
+    height:50px;
+    position:relative;
+    margin-left: -100%;
+    right:-558px;
+}
+.jingjia_info .bids .bidcontent .content .headline .third{
+    background: url("../../../assets/images/headline_mark_1.png");
+    background-repeat: repeat-x;
+    width:100%;
+    float:left;
+    height:50px;
+    position: relative;
+}
+.jingjia_info .bids .bidcontent .content .info{
+    border:1px #E6E6E6 solid;
+    border-top: 0;
+    float:left;
+    width:100%;
+}
+.jingjia_info .bids .bidcontent .content .info .info_row{
+    float:left;
+    width:100%;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+.jingjia_info .bids .bidcontent .content .info .info_row .first{
+    width:20%;
+    text-align: left;
+    float:left;
+    font-size: 12px;
+}
+.jingjia_info .bids .bidcontent .content .info .info_row .second{
+    width:30%;
+    text-align: left;
+    float:left;
+    font-size: 12px;
+}
+.jingjia_info .bids .bidcontent .content .info .info_row .third{
+    width:20%;
+    text-align: left;
+    float:left;
+    font-size: 12px;
+}
+.jingjia_info .bids .bidcontent .content .info .info_row .fourth{
+    width:30%;
+    text-align: left;
+    float:left;
+    font-size: 12px;
+}
+.jingjia_info .bids .bidcontent .content .footline{
+    width:100%;
+    float:left;
+}
+.jingjia_info .bids .bidcontent .foot{
+    width:100%;
+    float:left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.jingjia_info .bids .bidcontent .foot .first{
+    width:18%;
+    text-align: left;
+    float:left;
+}
+.jingjia_info .bids .bidcontent .foot .second{
+    width:82%;
+    text-align: left;
+    float:left;
+}
+.jingjia_info .brief_info {
+    width:100%;
+    float:left;
+}
+.jingjia_info .brief_info .labels{
+    width:40%;
+    float:left;
+}
+.jingjia_info .brief_info .labels .first{
+    width:20%;
+    float:left;
+}
+.jingjia_info .brief_info .labels .second{
+    width:20%;
+    float:left;
+}
+.jingjia_info .brief_info .labels .third{
+    width:20%;
+    float:left;
+}
+.jingjia_info .brief_info .controls{
+    width:30%;
+    float:left;
+}
+.jingjia_info .brief_info .controls .first{
+   /*background: url("../../../assets/images/btn_arrow_full_left.png");
+   width:22px;
+   height:22px;*/
+}
+.jingjia_info .brief_info .controls .prev{
+    /*background: url("../../../assets/images/btn_arrow_left.png");
+    width:22px;
+   height:22px;*/
+}
+.jingjia_info .brief_info .controls .page_number{
+    width:100px;
+}
+.jingjia_info .brief_info .controls .next{
+    /*background: url("../../../assets/images/btn_arrow_right.png");
+    width:22px;
+   height:22px;*/
+}
+.jingjia_info .brief_info .controls .last{
+    /*background: url("../../../assets/images/btn_arrow_full_right.png");
+    width:22px;
+   height:22px;*/
+}
+.jingjia_info .brief_info .controls>div{
+    margin-left: 5px;;
+    margin-right: 5px;
+    float:left;
+}
+.jingjia_info .brief_info .buttons{
+    padding-left:  10px;
+    padding-right:  10px;
+    width:30%;
+    float:left;
+}
+.bidcontent{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float:left;
+}
+.table_row_content .block2 .jingjia_info{
+    margin-bottom: 20px;
+    float:left;
 }
