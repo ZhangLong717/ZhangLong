@@ -14,18 +14,22 @@ $(document).ready(function(){
         $("#customtable_dialog_tingyong").find(item1).html(text1);
         //$("#customtable_dialog_tingyong").modal('show');
         $("#customtable_dialog_tingyong").modal('show');
+        return false;
     });
     $(".huifu").click(function(){
         var rowid = $(this).parent().data("rowid");
         $("#customtable_dialog_mquanxian").modal('show');
+        return false;
     });
     $(".sanchu").click(function(){
         var rowid = $(this).parent().data("rowid");
         $("#customtable_dialog_mquanxian").modal('show');
+        return false;
     });
     $(".customtable>table>tbody>tr").click(function(){
        //alert("sss") ;
-       window.location = "firstpage_1_table.html"
+       window.location = currentpage + "_table.html"
+       //alert(currentpage);
     });
 });
 

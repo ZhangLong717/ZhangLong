@@ -302,6 +302,11 @@ text-align: center;
 padding: 10px;
 border: 1px solid #ddd;
 }
+.dingdan-info{
+    padding: 10px;
+    border: 1px solid #137BA7;
+
+}
 .list-filter dl {
 border-top: 1px solid #f4f4f4;
 margin: 0;
@@ -344,4 +349,7 @@ line-height: 2em;
 }
 .content .customtable th{
     background-color: #F2F2F2;
+}
+.right-side-menu .content{
+    background:white;
 }
