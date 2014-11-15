@@ -52,12 +52,6 @@ body{
     background-color: #0683B1;
     
 }
-.left-side-menu{
-    width:200px;
-    height:100%;
-    background: #F2F2F2;
-    float:left;
-}
 #topnav_menu>ul{
     width:100%;
 }

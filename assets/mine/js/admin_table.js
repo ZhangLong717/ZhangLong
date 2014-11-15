@@ -28,7 +28,7 @@ $(document).ready(function(){
     });
     $(".customtable>table>tbody>tr").click(function(){
        //alert("sss") ;
-       window.location = currentpage + "_table.html"
+       window.location = page_for_table_row + ".html";
        //alert(currentpage);
     });
 });
