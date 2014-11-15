@@ -141,6 +141,10 @@ and open the template in the editor.
     margin:15px;
     float:left;
 }
+.table_row_content .content-header{
+    float:left;
+    margin-bottom:10px;
+}
 .table_row_content .buttonactions{
     float:right;
 }
@@ -507,59 +511,59 @@ line-height: 2em;
     text-align: left;
     float:left;
 }
-.jingjia_info .brief_info {
+ .brief_info {
     width:100%;
     float:left;
 }
-.jingjia_info .brief_info .labels{
+ .brief_info .labels{
     width:40%;
     float:left;
 }
-.jingjia_info .brief_info .labels .first{
+ .brief_info .labels .first{
     width:20%;
     float:left;
 }
-.jingjia_info .brief_info .labels .second{
+ .brief_info .labels .second{
     width:20%;
     float:left;
 }
-.jingjia_info .brief_info .labels .third{
+ .brief_info .labels .third{
     width:20%;
     float:left;
 }
-.jingjia_info .brief_info .controls{
+ .brief_info .controls{
     width:30%;
     float:left;
 }
-.jingjia_info .brief_info .controls .first{
+ .brief_info .controls .first{
    /*background: url("../../../assets/images/btn_arrow_full_left.png");
    width:22px;
    height:22px;*/
 }
-.jingjia_info .brief_info .controls .prev{
+ .brief_info .controls .prev{
     /*background: url("../../../assets/images/btn_arrow_left.png");
     width:22px;
    height:22px;*/
 }
-.jingjia_info .brief_info .controls .page_number{
+ .brief_info .controls .page_number{
     width:100px;
 }
-.jingjia_info .brief_info .controls .next{
+ .brief_info .controls .next{
     /*background: url("../../../assets/images/btn_arrow_right.png");
     width:22px;
    height:22px;*/
 }
-.jingjia_info .brief_info .controls .last{
+ .brief_info .controls .last{
     /*background: url("../../../assets/images/btn_arrow_full_right.png");
     width:22px;
    height:22px;*/
 }
-.jingjia_info .brief_info .controls>div{
+ .brief_info .controls>div{
     margin-left: 5px;;
     margin-right: 5px;
     float:left;
 }
-.jingjia_info .brief_info .buttons{
+ .brief_info .buttons{
     padding-left:  10px;
     padding-right:  10px;
     width:30%;
