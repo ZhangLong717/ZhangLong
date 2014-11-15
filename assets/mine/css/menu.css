@@ -50,6 +50,12 @@ and open the template in the editor.
     background-color: #0683B1;
     
 }
+.left-side-menu{
+    width:200px;
+    height:100%;
+    background: #F2F2F2;
+    float:left;
+}
 #topnav_menu>ul{
     width:100%;
 }
@@ -98,9 +104,14 @@ and open the template in the editor.
 }
 
 .right-side{
-    margin-left: 200px;
-    height:auto;
+    /* margin-left: 200px; */
+    /* height:auto; */
     //min-height: 800px;
+}
+.content-center{
+    //height:auto;
+    /* width:100%; */
+    /* height: 800px; */
 }
 .content-row{
     margin-top:10px;
@@ -206,3 +217,38 @@ li.topnav_item a {
   font-family: simsun,serif;
       
 }
+
+
+/*.sidebar-menu>li.active {
+    background: #0F6082;
+}*/
+
+/*
+
+
+
+.side-nav>.navbar-header{
+
+    width:200px;
+    height:50px;
+    padding:10px 15px;
+}
+.side-nav>.navbar-header>div{
+    text-align: center;
+    width:100%;
+}
+.side-nav>ul>li{
+    background-color: #F2F2F2;
+    width:200px;
+}
+.side-nav>ul>li a{
+    color:black;
+    text-align: right;
+    width:150px;
+    display:inline-block;
+}
+div.side-nav{
+    width:200px;
+    background-color: #0683B1;
+    border: 0;
+}*/
