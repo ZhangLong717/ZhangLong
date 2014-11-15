@@ -11,12 +11,18 @@ and open the template in the editor.
 
 
 .left-side-menu{
-    width:200px;
-    height:100%;
-    background: #F2F2F2;
+    margin-left: -100%;
+    right: 200px;
+    position: relative;
     float:left;
+    width:200px;
 }
-
+.right-side-menu{
+    float:left;
+    background-color:white;
+    width:100%;
+    position:relative;
+}
 .sidebar-menu{
     background: #F2F2F2;
     //min-height: 800px;

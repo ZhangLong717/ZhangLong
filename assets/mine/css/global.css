@@ -246,6 +246,606 @@ table tbody td {
     display: flex;
     
 }
+.blue-border{
+    width: 63%;
+    
+    //display: inline;
+    border: 1px solid #137BA6;
+}
+.ui-btn-inverse {
+font-size: 14px;
+line-height: 20px;
+background: #137BA6;
+padding-left: 16px;
+padding-right: 15px;
+color: #fff;
+border: #137BA6;
+}
+.chaxun_button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #137BA6;
+}
+.sidebar-menu>li a:hover{
+    color:#137BA6;
+    text-decoration: none;
+}
+.jiedan{
+    width:120px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.ui-breadcrumb-divider {
+padding: 0 5px;
+color: #656565;
+font-family: simsun,serif;
+}
+.centered{
+margin-left: auto;
+margin-right: auto;
+display: inline-block;
+}
+.autopadding{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.table_background_color1{
+    background:#F2F2F2;
+}
+.table_text_color1{
+    color:#91B7CD;
+}
+.buttonstyle1{
+    background: #147CA7;
+    color:white;
+    border: 1px solid #147ca7;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-11-11, 18:06:52
+    Author     : Hgc
+*/
+.breadcrumb > li a{
+    color: #282828;
+    text-decoration: none;
+}
+#adminhome_topbar{
+    background-color: #157CA7;
+    height:40px;
+}
+#adminhome_topbar .text_link_item{
+    float:right;
+    margin-left: 5px;
+    margin-right:5px;
+    margin-top:10px;
+    font-family: "sans-serif";
+    color:#E0E7EC;
+}
+.pane_content a:link {  
+}
+/* visited link */
+.pane_content a:visited {
+}
+/* mouse over link */
+.pane_content a:hover {
+    text-decoration: none;
+}
+/* selected link */
+.pane_content a:active {
+} 
+
+.vb{
+    vertical-align: bottom;
+    margin-top: 20px;
+}
+#adminhome_topbar a:link {
+    color: #E0E7EC;
+}
+/* visited link */
+#adminhome_topbar a:visited {
+    color: #E0E7EC;
+}
+
+/* mouse over link */
+#adminhome_topbar a:hover {
+    color: #F9D407;
+}
+
+/* selected link */
+#adminhome_topbar a:active {
+    color: #F9D407;
+} 
+.home_container{
+    width:1100px;
+    height: auto;
+    margin: 50px auto 20px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#adminhome_top_title {
+    color:#4B92B4;
+    margin-top:50px;
+    margin-bottom: 90px;
+    margin-left: 50px;
+}
+#adminhome_main_pane .pane_content{
+    background-color: #018ABC;
+    height:130px;
+    position:relative;
+}
+#adminhome_main_pane td{
+    padding:5px 5px 5px 5px;
+}
+.pane_item_top_image img{
+    display:block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#adminhome_main_pane .pane_item{
+    width:100%;
+    height:100%;
+}
+#adminhome_main_pane .pane_item_bottom_label{
+    text-align: center;
+    color:white;
+}
+#adminhome_main_pane .pane_item_top_image{
+    height:75%;
+    position:relative;
+}
+#adminhome_main_pane .pane_item_bottom_label{
+    height:25%;
+}
+#adminhome_bottombar{
+    background-color: #157CA7;
+    height:40px;
+    text-align: center;
+    margin-top: 250px;
+    color: white;
+    padding-top: 10px;
+}
+
+.top-buffer { 
+margin-top:50px; 
+margin-bottom:30px;
+padding-left:70px;
+font-family:sans-serif;
+}
+.container_center_pan{
+height:600px;
+width:1100px;
+background-color:#157CA7;
+}
+.container_center_pan .label_title{
+    margin-top: 30%;
+}
+#adminpage_login_form{
+    margin-top:45%;
+}
+#adminpage_login_form .form-group{
+    margin-top:20px;
+}
+#adminpage_login_form .control-label{
+    text-align: left;
+    width:100%;
+}
+#adminpage_login_form .input_userinfo{
+    //background-color: white;
+    position:relative;
+    height:35px;
+    margin-top:20px;
+}
+#adminpage_login_form .input_password{
+    //background-color: white;
+    position:relative;
+    height:35px;
+    width:100%;
+}
+#adminpage_login_form .input_userinfo img{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: auto;
+    display:block;
+}
+#adminpage_login_form .input_userinfo div{
+    position:relative;
+    background-color: white;
+    width:40px;
+    float:left;
+    top:0;
+    left:0;
+    height: 100%;
+}
+#adminpage_login_form .input_userinfo .input_info{
+    height:100%;
+    border:0px;
+    width:250px;
+}
+#adminpage_login_form .btn-default{
+    width:100%;
+}
+#adminlogin_registry_img{
+    position:relative;
+    height:100%;
+}
+#adminlogin_registry_img .circle{
+    position: absolute;
+    display:block;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    margin-left: 100px;
+}
+#adminlogin_registry_title_img{
+    position:relative;
+    height:100%;
+}
+#adminlogin_registry_img .word{
+    position: absolute;
+    display:block;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    margin-left: 230px;
+}
+#adminlogin_registry_item{
+    position:relative;
+}
+
+.textalignright{
+    text-align: right;
+}
+.container{
+    min-width:1200px;
+}
+.navbar{
+    background-color: #0683B1;
+    border-radius: 0;
+    margin:0;
+}
+.navbar-nav>li>a{
+    color:white;
+}
+
+.navbar-nav>li>a:hover{
+    background: #0F6082;
+}
+.floatleftblock{
+    float:left;
+}
+.floatrightblock{
+    float:right;
+}
+table tbody td {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: black;
+}
+.colorred{
+    color:red;
+}
+.colorblueone{
+    color:#147CA7;
+}
+.dingdan-search{
+    margin-top: 13px !important;
+    margin-left: 8px;
+    display: flex;
+    
+}
+.fl{
+    float:left;
+}
+.blue-border{
+    width: 63%;
+    
+    //display: inline;
+    border: 1px solid #137BA6;
+}
+.ui-btn-inverse {
+font-size: 14px;
+line-height: 20px;
+background: #137BA6;
+padding-left: 16px;
+padding-right: 15px;
+color: #fff;
+border: #137BA6;
+}
+.chaxun_button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #137BA6;
+}
+.sidebar-menu>li a:hover{
+    color:#137BA6;
+    text-decoration: none;
+}
+.jiedan{
+    width:120px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.ui-breadcrumb-divider {
+padding: 0 5px;
+color: #656565;
+font-family: simsun,serif;
+}
+.centered{
+margin-left: auto;
+margin-right: auto;
+display: inline-block;
+}
+.autopadding{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.automargin{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-11-11, 18:06:52
+    Author     : Hgc
+*/
+.breadcrumb > li a{
+    color: #282828;
+    text-decoration: none;
+}
+#adminhome_topbar{
+    background-color: #157CA7;
+    height:40px;
+}
+#adminhome_topbar .text_link_item{
+    float:right;
+    margin-left: 5px;
+    margin-right:5px;
+    margin-top:10px;
+    font-family: "sans-serif";
+    color:#E0E7EC;
+}
+.pane_content a:link {  
+}
+/* visited link */
+.pane_content a:visited {
+}
+/* mouse over link */
+.pane_content a:hover {
+    text-decoration: none;
+}
+/* selected link */
+.pane_content a:active {
+} 
+
+.vb{
+    vertical-align: bottom;
+    margin-top: 20px;
+}
+#adminhome_topbar a:link {
+    color: #E0E7EC;
+}
+/* visited link */
+#adminhome_topbar a:visited {
+    color: #E0E7EC;
+}
+
+/* mouse over link */
+#adminhome_topbar a:hover {
+    color: #F9D407;
+}
+
+/* selected link */
+#adminhome_topbar a:active {
+    color: #F9D407;
+} 
+.home_container{
+    width:1100px;
+    height: auto;
+    margin: 50px auto 20px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#adminhome_top_title {
+    color:#4B92B4;
+    margin-top:50px;
+    margin-bottom: 90px;
+    margin-left: 50px;
+}
+#adminhome_main_pane .pane_content{
+    background-color: #018ABC;
+    height:130px;
+    position:relative;
+}
+#adminhome_main_pane td{
+    padding:5px 5px 5px 5px;
+}
+.pane_item_top_image img{
+    display:block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#adminhome_main_pane .pane_item{
+    width:100%;
+    height:100%;
+}
+#adminhome_main_pane .pane_item_bottom_label{
+    text-align: center;
+    color:white;
+}
+#adminhome_main_pane .pane_item_top_image{
+    height:75%;
+    position:relative;
+}
+#adminhome_main_pane .pane_item_bottom_label{
+    height:25%;
+}
+#adminhome_bottombar{
+    background-color: #157CA7;
+    height:40px;
+    text-align: center;
+    margin-top: 250px;
+    color: white;
+    padding-top: 10px;
+}
+
+.top-buffer { 
+margin-top:50px; 
+margin-bottom:30px;
+padding-left:70px;
+font-family:sans-serif;
+}
+.container_center_pan{
+height:600px;
+width:1100px;
+background-color:#157CA7;
+}
+.container_center_pan .label_title{
+    margin-top: 30%;
+}
+#adminpage_login_form{
+    margin-top:45%;
+}
+#adminpage_login_form .form-group{
+    margin-top:20px;
+}
+#adminpage_login_form .control-label{
+    text-align: left;
+    width:100%;
+}
+#adminpage_login_form .input_userinfo{
+    //background-color: white;
+    position:relative;
+    height:35px;
+    margin-top:20px;
+}
+#adminpage_login_form .input_password{
+    //background-color: white;
+    position:relative;
+    height:35px;
+    width:100%;
+}
+#adminpage_login_form .input_userinfo img{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: auto;
+    display:block;
+}
+#adminpage_login_form .input_userinfo div{
+    position:relative;
+    background-color: white;
+    width:40px;
+    float:left;
+    top:0;
+    left:0;
+    height: 100%;
+}
+#adminpage_login_form .input_userinfo .input_info{
+    height:100%;
+    border:0px;
+    width:250px;
+}
+#adminpage_login_form .btn-default{
+    width:100%;
+}
+#adminlogin_registry_img{
+    position:relative;
+    height:100%;
+}
+#adminlogin_registry_img .circle{
+    position: absolute;
+    display:block;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    margin-left: 100px;
+}
+#adminlogin_registry_title_img{
+    position:relative;
+    height:100%;
+}
+#adminlogin_registry_img .word{
+    position: absolute;
+    display:block;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    margin-left: 230px;
+}
+#adminlogin_registry_item{
+    position:relative;
+}
+
+.textalignright{
+    text-align: right;
+}
+.container{
+    min-width:1200px;
+}
+.navbar{
+    background-color: #0683B1;
+    border-radius: 0;
+    margin:0;
+}
+.navbar-nav>li>a{
+    color:white;
+}
+
+.navbar-nav>li>a:hover{
+    background: #0F6082;
+}
+.floatleftblock{
+    float:left;
+}
+.floatrightblock{
+    float:right;
+}
+table tbody td {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: black;
+}
+.colorred{
+    color:red;
+}
+.colorblueone{
+    color:#147CA7;
+}
+.dingdan-search{
+    margin-top: 13px !important;
+    margin-left: 8px;
+    display: flex;
+    
+}
 .fl{
     float:left;
 }
